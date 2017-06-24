@@ -17,13 +17,14 @@
 
     asyncData ({ store }) {
       return store.dispatch('fetch', {
+        store: 'heroes',
         endpoint: 'v1/heroes'
       });
     },
 
     computed: {
       heroes () {
-        return this.$store.state.items;
+        return this.$store.state.heroes;
       }
     }
   }

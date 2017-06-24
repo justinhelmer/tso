@@ -8,48 +8,46 @@ Vue.use(Vuex);
 export function createStore () {
   return new Vuex.Store({
     state: {
-      items: []
+      heroes: [],
+      cards: []
     },
     actions: {
-      fetch({commit}, options) {
+      fetch({commit}, { store, endpoint, id }) {
         const base = config.proxy.base || '/api';
 
-        let uri = 'http://localhost:3000' + base + '/' + options.endpoint;
+        let uri = 'http://localhost:3000' + base + '/' + endpoint;
 
-        if (options.id) {
-          uri += '/' + options.id;
+        if (id) {
+          uri += '/' + id;
         }
 
         return axios.get(uri)
             .then(function (response) {
-              if (options.id) {
-                commit('setItem', {
-                  id: options.id,
-                  item: response.data
-                });
+              if (id) {
+                commit('setItem', { store, id, item: response.data });
               } else {
-                commit('replaceItems', response.data);
+                commit('replaceItems', { store, items: response.data });
               }
             })
             .catch(error => console.log(error));
       }
     },
     getters: {
-      getItemById: state => id => state.items.find(item => item.id === id)
+      getItemById: state => (store, id) => state[store].find(item => item.id === id)
     },
     mutations: {
-      setItem (state, { id, item }) {
-        const idx = state.items.find(item => item.id === id);
+      setItem (state, { store, id, item }) {
+        const idx = state[store].find(item => item.id === id);
 
         if (idx) {
-          state.items[idx] = item;
+          state[store][idx] = item;
         } else {
-          state.items.push(item);
+          state[store].push(item);
         }
       },
 
-      replaceItems (state, items) {
-        state.items = items;
+      replaceItems (state, { store, items }) {
+        state[store] = items;
       }
     }
   });
