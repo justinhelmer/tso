@@ -2,13 +2,13 @@
     <div id="items">
         <h1>Heroes</h1>
         <ul :class="$style.heroes">
-            <hero-grid-item v-for="hero in heroes" :hero="hero"></hero-grid-item>
+            <hero-grid-item v-for="hero in heroes" :hero="hero" :key="hero.id"></hero-grid-item>
         </ul>
     </div>
 </template>
 
 <script>
-  import { HeroGridItem } from './HeroGridItem.vue';
+  import HeroGridItem from './HeroGridItem.vue';
 
   export default {
     name: 'heroes',
