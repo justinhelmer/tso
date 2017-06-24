@@ -21,24 +21,14 @@
 </script>
 
 <style module>
-    @value primary from '../css/colors.css';
-    @value large as m-large from '../css/layout.css';
     @value large as t-large from '../css/typography.css';
 
     .menu {
-        text-align: center;
-        width: 100%;
+        @mixin inline;
 
-
-        & li {
-            display: inline-block;
-            margin: 0 m-large 0 0;
-
-            & a {
-                color: primary;
-                font-size: t-large;
-                text-transform: uppercase;
-            }
+        & li a {
+            font-size: t-large;
+            text-transform: uppercase;
         }
     }
 </style>

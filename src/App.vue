@@ -2,8 +2,9 @@
     <div id="app">
         <header>
             <router-link :to="{ name: 'home' }">
-                <img src="/public/logo.png" :class="$style.logo">
+                <img src="/public/paragon-logo.jpg" :class="$style.logo">
             </router-link>
+            <div :class="$style.title">{{ title }}</div>
         </header>
         <main>
             <router-view></router-view>
@@ -29,6 +30,9 @@
 </style>
 
 <style module>
+    @value xl as t-xl from './css/typography.css';
+
     .logo {  max-width: 320px;  width: 100%;  }
+    .title { font-size: t-xl; }
 </style>
 

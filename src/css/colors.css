@@ -1,7 +1,4 @@
-@value primary: red;
-@value secondary: green;
-@value tertiary: blue;
-
-.color-primary {  color: primary;  }
-.color-secondary {  color: secondary;  }
-.color-tertiary {  color: tertiary;  }
+@value void: #0b0c10;
+@value dark: #10131a;
+@value white: #ffffff;
+@value neon: #66fcf1;
