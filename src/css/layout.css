@@ -1,5 +1,6 @@
-@value base: 1rem * 1.25;
+@value base: 1rem * 1.25; /* 20px */
 
+@value xs: calc(base / 4);
 @value small: calc(base / 2);
 @value normal: base;
 @value large: calc(base * 2);

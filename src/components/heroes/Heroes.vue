@@ -1,10 +1,11 @@
 <template>
     <div id="items">
         <h1>Heroes</h1>
-        <ul :class= "$style.heroess">
+        <ul :class= "$style.heroes">
             <li v-for="hero in heroes" v-on:mouseover="onMouseOver(hero)">
                 <router-link :to="{name: 'hero', params: {id: hero.id}}">
                     <img :src="hero.images.icon"/>
+                    <div :class="$style.overlay">{{hero.name}}</div>
                 </router-link>
             </li>
         </ul>
@@ -20,6 +21,12 @@
         store: 'heroes',
         endpoint: 'v1/heroes'
       });
+    },
+
+    data () {
+      return {
+        showOverlay: true
+      }
     },
 
     computed: {
@@ -45,17 +52,5 @@
 </script>
 
 <style module>
-    ul.heroess {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        & li a {
-            display: block;
-
-            & img{
-              max-width: 200px;
-            }
-        }
-    }
+    @import './heroes.css';
 </style>

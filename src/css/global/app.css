@@ -19,6 +19,10 @@
   color: white;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {  background: void; margin: m-large;  }
 main {  margin: m-normal;  }
 header {  @apply --centered;  flex-direction: column;  }

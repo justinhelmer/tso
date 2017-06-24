@@ -1,10 +1,7 @@
 <template>
     <div id="app">
         <header>
-            <router-link :to="{ name: 'home' }">
-                <img src="/public/paragon-logo.jpg" :class="$style.logo">
-            </router-link>
-            <div :class="$style.title">{{ title }}</div>
+            <router-link :to="{ name: 'home' }" :class="$style.title">{{ title }}</router-link>
         </header>
         <main>
             <router-view></router-view>
@@ -30,9 +27,13 @@
 </style>
 
 <style module>
+    @value white from './css/colors.css';
     @value xl as t-xl from './css/typography.css';
 
-    .logo {  max-width: 320px;  width: 100%;  }
-    .title { font-size: t-xl; }
+    .title {
+        color: white;
+        font-size: t-xl;
+        text-decoration: none;
+    }
 </style>
 
