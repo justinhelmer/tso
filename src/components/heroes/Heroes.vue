@@ -2,7 +2,7 @@
     <div id="items">
         <h1>Heroes</h1>
         <ul :class= "$style.heroess">
-            <li v-for="hero in heroes">
+            <li v-for="hero in heroes" v-on:mouseover="onMouseOver(hero)">
                 <router-link :to="{name: 'hero', params: {id: hero.id}}">
                     <img :src="hero.images.icon"/>
                 </router-link>
@@ -24,16 +24,31 @@
 
     computed: {
       heroes () {
-        return this.$store.state.heroes;
+         return this.$store.state.heroes.sort((a, b) => {
+            if (a.name.toLowerCase() < b.name.toLowerCase()) //sort string ascending
+               return -1;
+            if (a.name.toLowerCase() > b.name.toLowerCase())
+               return 1;
+            return 0;
+         });
       }
-    }
+    },
+
+     methods: {
+        onMouseOver: (evt) => {
+           console.log(evt);
+           console.log('On MOUSE OVER!!');
+        }
+     },
+
   }
 </script>
 
 <style module>
     ul.heroess {
         display: flex;
-        margin: large;
+        flex-wrap: wrap;
+        justify-content: center;
 
         & li a {
             display: block;
