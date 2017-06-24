@@ -1,7 +1,13 @@
 <template>
     <div id="items">
         <h1>Heroes</h1>
-        <h2 v-for="hero in heroes">{{hero.name}}</h2>
+        <ul :class= "$style.heroess">
+            <li v-for="hero in heroes">
+                <router-link :to="{name: 'hero', params: {id: hero.id}}">
+                    <img :src="hero.images.icon"/>
+                </router-link>
+            </li>
+        </ul>
     </div>
 </template>
 
@@ -22,3 +28,18 @@
     }
   }
 </script>
+
+<style module>
+    ul.heroess {
+        display: flex;
+        margin: large;
+
+        & li a {
+            display: block;
+
+            & img{
+              max-width: 200px;
+            }
+        }
+    }
+</style>
