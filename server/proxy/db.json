@@ -1,0 +1,912 @@
+{
+  "heroes": [
+    {
+      "id": "051b478dd9b58f6f31c5e580996724df",
+      "name": "Countess",
+      "attack": "Melee",
+      "traits": [
+        "Assassin",
+        "Burst",
+        "Sieger",
+        "Ganker",
+        "Durable"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2016-10-25T00:00:00.000Z",
+      "affinities": [
+        "Growth",
+        "Corruption"
+      ],
+      "difficulty": 1,
+      "stats": {
+        "Mobility": 7,
+        "BasicAttack": 2,
+        "Durability": 1,
+        "AbilityAttack": 9
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/CBDAD64065E22049C73FAAAD75C3CBB139A2B428.png"
+      }
+    },
+    {
+      "id": "0df5b4104955a71326ad15a36fd6ed62",
+      "name": "Murdock",
+      "attack": "Ranged",
+      "traits": [
+        "Marauder",
+        "Attacker",
+        "Burst",
+        "Zoner"
+      ],
+      "scale": "EnergyDamage",
+      "releaseDate": "2016-03-22T00:00:00.000Z",
+      "affinities": [
+        "Fury",
+        "Intellect"
+      ],
+      "difficulty": 0,
+      "stats": {
+        "Mobility": 1,
+        "BasicAttack": 10,
+        "Durability": 2,
+        "AbilityAttack": 5
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/241D20A5E592D75803288DAADE74ABBEB009557D.png"
+      }
+    },
+    {
+      "id": "0fd6f97096f0356e479dc8ef23dcd819",
+      "name": "Rampage",
+      "attack": "Melee",
+      "traits": [
+        "Durable",
+        "Wild",
+        "Attacker",
+        "Initiator",
+        "Elusive",
+        "Ganker"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2016-03-22T00:00:00.000Z",
+      "affinities": [
+        "Growth",
+        "Fury"
+      ],
+      "difficulty": 1,
+      "stats": {
+        "Mobility": 7,
+        "BasicAttack": 4,
+        "Durability": 8,
+        "AbilityAttack": 2
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/D2AC098C2B3929A5171399991C1FB26BEB866107.png"
+      }
+    },
+    {
+      "id": "12311ccb1127311ec972ca48a72cfe47",
+      "name": "Aurora",
+      "attack": "Melee",
+      "traits": [
+        "Elusive",
+        "Controller",
+        "Burst",
+        "Attacker",
+        "Zoner"
+      ],
+      "scale": "EnergyDamage",
+      "releaseDate": "2017-01-31T00:00:00.000Z",
+      "affinities": [
+        "Fury",
+        "Intellect"
+      ],
+      "difficulty": 1,
+      "stats": {
+        "Mobility": 8,
+        "BasicAttack": 7,
+        "Durability": 3,
+        "AbilityAttack": 6
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/993C943796250A59448BECEB2B4B1A32B699199E.png"
+      }
+    },
+    {
+      "id": "124004f32034b156d6eff2fa156817e5",
+      "name": "Shinbi",
+      "attack": "Melee",
+      "traits": [
+        "Assassin",
+        "Burst",
+        "Ganker",
+        "Elusive",
+        "Sieger"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2017-02-21T00:00:00.000Z",
+      "affinities": [
+        "Growth",
+        "Intellect"
+      ],
+      "difficulty": 3,
+      "stats": {
+        "Mobility": 6,
+        "BasicAttack": 2,
+        "Durability": 3,
+        "AbilityAttack": 9
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/2CC677C63A0DA756099694EFB712DCD64F782A5D.png"
+      }
+    },
+    {
+      "id": "20a755dd3f6ef6fda5ac9bc1dfba365f",
+      "name": "Gadget",
+      "attack": "Ranged",
+      "traits": [
+        "Sieger",
+        "Zoner",
+        "Burst",
+        "Guardian",
+        "Elusive"
+      ],
+      "scale": "EnergyDamage",
+      "releaseDate": "2016-03-22T00:00:00.000Z",
+      "affinities": [
+        "Intellect",
+        "Order"
+      ],
+      "difficulty": 0,
+      "stats": {
+        "Mobility": 3,
+        "BasicAttack": 2,
+        "Durability": 2,
+        "AbilityAttack": 8
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/C8B47F9D07991A43F077E3AB59AFA598F1B3E64A.png"
+      }
+    },
+    {
+      "id": "214573d44df234eb620002c891d9e826",
+      "name": "Narbash",
+      "attack": "Melee",
+      "traits": [
+        "Guardian",
+        "Controller",
+        "Durable"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2016-08-23T00:00:00.000Z",
+      "affinities": [
+        "Growth",
+        "Order"
+      ],
+      "difficulty": 2,
+      "stats": {
+        "Mobility": 4,
+        "BasicAttack": 3,
+        "Durability": 8,
+        "AbilityAttack": 3
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/B165E1C84ED16BE648B56DFECD60EF0ED3E839E8.png"
+      }
+    },
+    {
+      "id": "24da1c795e78c4dd3c8dcb4a993d463c",
+      "name": "Phase",
+      "attack": "Ranged",
+      "traits": [
+        "Guardian",
+        "Controller",
+        "Durable",
+        "Elusive"
+      ],
+      "scale": "EnergyDamage",
+      "releaseDate": "2017-05-16T00:00:00.000Z",
+      "affinities": [
+        "Growth",
+        "Intellect"
+      ],
+      "difficulty": 3,
+      "stats": {
+        "Mobility": 4,
+        "BasicAttack": 2,
+        "Durability": 8,
+        "AbilityAttack": 6
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/2D447AC1AAAE6FE41C273D95B989EF7B2C2CDCA9.png"
+      }
+    },
+    {
+      "id": "2baa49db7d0f9fd4e9d5d9ef435626e7",
+      "name": "Khaimera",
+      "attack": "Melee",
+      "traits": [
+        "Assassin",
+        "Attacker",
+        "Wild",
+        "Ganker"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2016-06-21T00:00:00.000Z",
+      "affinities": [
+        "Growth",
+        "Fury"
+      ],
+      "difficulty": 0,
+      "stats": {
+        "Mobility": 4,
+        "BasicAttack": 6,
+        "Durability": 7,
+        "AbilityAttack": 4
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/C40B2668D33FD3922F959F66FFE66AF85C48776D.png"
+      }
+    },
+    {
+      "id": "350982a548a16ce00215b04dbe62a0b1",
+      "name": "Steel",
+      "attack": "Melee",
+      "traits": [
+        "Initiator",
+        "Guardian",
+        "Durable",
+        "Attacker",
+        "Zoner"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2016-03-22T00:00:00.000Z",
+      "affinities": [
+        "Intellect",
+        "Order"
+      ],
+      "difficulty": 2,
+      "stats": {
+        "Mobility": 6,
+        "BasicAttack": 2,
+        "Durability": 10,
+        "AbilityAttack": 3
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/842F712A317A0F42B6C6A849D261BED9C3B3EA2E.png"
+      }
+    },
+    {
+      "id": "393d70e8bfec50aca0c77441d7c0763b",
+      "name": "Wukong",
+      "attack": "Melee",
+      "traits": [
+        "Marauder",
+        "Attacker",
+        "Elusive",
+        "Sieger",
+        "Zoner"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2017-06-06T00:00:00.000Z",
+      "affinities": [
+        "Order",
+        "Corruption"
+      ],
+      "difficulty": 2,
+      "stats": {
+        "Mobility": 7,
+        "BasicAttack": 10,
+        "Durability": 2,
+        "AbilityAttack": 3
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/60B0D4A972E6711901E17EB2068455F1132BAD7F.png"
+      }
+    },
+    {
+      "id": "3a76b90019a3df4bd43387791edd865a",
+      "name": "Lt. Belica",
+      "attack": "Ranged",
+      "traits": [
+        "Controller",
+        "Zoner",
+        "Burst",
+        "Sieger",
+        "Guardian"
+      ],
+      "scale": "EnergyDamage",
+      "releaseDate": "2016-09-13T00:00:00.000Z",
+      "affinities": [
+        "Intellect",
+        "Order"
+      ],
+      "difficulty": 1,
+      "stats": {
+        "Mobility": 2,
+        "BasicAttack": 2,
+        "Durability": 4,
+        "AbilityAttack": 7
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/1F934852D1455C5A8DA8C4D2530A9303F5131790.png"
+      }
+    },
+    {
+      "id": "44c9da1c2937c54e39e7957386d70482",
+      "name": "Morigesh",
+      "attack": "Ranged",
+      "traits": [
+        "Burst",
+        "Ganker",
+        "Elusive",
+        "Sieger",
+        "Durable"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2017-04-04T00:00:00.000Z",
+      "affinities": [
+        "Growth",
+        "Corruption"
+      ],
+      "difficulty": 1,
+      "stats": {
+        "Mobility": 4,
+        "BasicAttack": 2,
+        "Durability": 4,
+        "AbilityAttack": 8
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/270FF40BDEA998C839EF636836C368705C409C53.png"
+      }
+    },
+    {
+      "id": "4be101fc8e82688086b1a205aa24d2d8",
+      "name": "Yin",
+      "attack": "Melee",
+      "traits": [
+        "Marauder",
+        "Attacker",
+        "Elusive",
+        "Assassin"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2017-03-14T00:00:00.000Z",
+      "affinities": [
+        "Growth",
+        "Fury"
+      ],
+      "difficulty": 1,
+      "stats": {
+        "Mobility": 6,
+        "BasicAttack": 9,
+        "Durability": 5,
+        "AbilityAttack": 3
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/3F69B8FB8CFC1076009E9E48517F3AF8082BCBAE.png"
+      }
+    },
+    {
+      "id": "4f1658f6bb26fb1426aa2cbe103c42b3",
+      "name": "Iggy & Scorch",
+      "attack": "Ranged",
+      "traits": [
+        "Zoner",
+        "Sieger",
+        "Elusive"
+      ],
+      "scale": "EnergyDamage",
+      "releaseDate": "2016-04-19T00:00:00.000Z",
+      "affinities": [
+        "Fury",
+        "Corruption"
+      ],
+      "difficulty": 2,
+      "stats": {
+        "Mobility": 5,
+        "BasicAttack": 3,
+        "Durability": 3,
+        "AbilityAttack": 7
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/A4D4E90B60AE5EE63E155B6B2DD1C0211E4A8D43.png"
+      }
+    },
+    {
+      "id": "564380fe55ccc1014330d8123fa9810d",
+      "name": "Riktor",
+      "attack": "Melee",
+      "traits": [
+        "Controller",
+        "Guardian",
+        "Assassin",
+        "Ganker"
+      ],
+      "scale": "EnergyDamage",
+      "releaseDate": "2016-05-31T00:00:00.000Z",
+      "affinities": [
+        "Intellect",
+        "Corruption",
+        "Universal"
+      ],
+      "difficulty": 3,
+      "stats": {
+        "Mobility": 1,
+        "BasicAttack": 3,
+        "Durability": 10,
+        "AbilityAttack": 3
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/CBF8AE033F328D7A57FABE40C24781BB27701BA8.png"
+      }
+    },
+    {
+      "id": "605b482ced792e4366dfb0d1b901bc2c",
+      "name": "Crunch",
+      "attack": "Melee",
+      "traits": [
+        "Initiator",
+        "Burst",
+        "Wild",
+        "Controller",
+        "Attacker"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2016-11-15T00:00:00.000Z",
+      "affinities": [
+        "Fury",
+        "Order"
+      ],
+      "difficulty": 2,
+      "stats": {
+        "Mobility": 6,
+        "BasicAttack": 6,
+        "Durability": 5,
+        "AbilityAttack": 4
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/B30AC35C5DEFD3058E945C5ACE98788E77C82BE0.png"
+      }
+    },
+    {
+      "id": "621951eb7e50d848c32e5fcf110d6776",
+      "name": "Gideon",
+      "attack": "Ranged",
+      "traits": [
+        "Burst",
+        "Assassin",
+        "Elusive",
+        "Sieger"
+      ],
+      "scale": "EnergyDamage",
+      "releaseDate": "2016-03-22T00:00:00.000Z",
+      "affinities": [
+        "Intellect",
+        "Corruption"
+      ],
+      "difficulty": 0,
+      "stats": {
+        "Mobility": 7,
+        "BasicAttack": 2,
+        "Durability": 3,
+        "AbilityAttack": 9
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/09E000ED9A60D68C3785C449EBD30D09020462C6.png"
+      }
+    },
+    {
+      "id": "69dc74a9182154c5edefa319f1e48720",
+      "name": "Serath",
+      "attack": "Melee",
+      "traits": [
+        "Marauder",
+        "Attacker",
+        "Elusive",
+        "Assassin",
+        "Durable"
+      ],
+      "scale": "EnergyDamage",
+      "releaseDate": "2017-01-10T00:00:00.000Z",
+      "affinities": [
+        "Order",
+        "Corruption"
+      ],
+      "difficulty": 3,
+      "stats": {
+        "Mobility": 5,
+        "BasicAttack": 8,
+        "Durability": 2,
+        "AbilityAttack": 6
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/F3028F294BE7F5EB16CBF580C6BC2AB8AEB8A207.png"
+      }
+    },
+    {
+      "id": "6aff7bbee67452fde268dadc938093db",
+      "name": "Kwang",
+      "attack": "Melee",
+      "traits": [
+        "Initiator",
+        "Wild",
+        "Durable",
+        "Attacker",
+        "Ganker"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2016-10-04T00:00:00.000Z",
+      "affinities": [
+        "Order",
+        "Corruption"
+      ],
+      "difficulty": 1,
+      "stats": {
+        "Mobility": 5,
+        "BasicAttack": 6,
+        "Durability": 7,
+        "AbilityAttack": 4
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/F22455EACC0A4F4EA9C8BC52062DEFCC608AB83B.png"
+      }
+    },
+    {
+      "id": "7399ecfbab365cdb8543da3dfbe830e6",
+      "name": "Sevarog",
+      "attack": "Melee",
+      "traits": [
+        "Attacker",
+        "Initiator",
+        "Durable",
+        "Controller",
+        "Sieger"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2016-03-29T00:00:00.000Z",
+      "affinities": [
+        "Growth",
+        "Corruption"
+      ],
+      "difficulty": 3,
+      "stats": {
+        "Mobility": 3,
+        "BasicAttack": 4,
+        "Durability": 10,
+        "AbilityAttack": 4
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/868019AA1E0D2F9B1FA1FE56931245DB31E7F133.png"
+      }
+    },
+    {
+      "id": "786d477b6bf412e5a1ab0a2539e8b78c",
+      "name": "Howitzer",
+      "attack": "Ranged",
+      "traits": [
+        "Sieger",
+        "Elusive",
+        "Burst",
+        "Zoner"
+      ],
+      "scale": "EnergyDamage",
+      "releaseDate": "2016-03-22T00:00:00.000Z",
+      "affinities": [
+        "Fury",
+        "Intellect"
+      ],
+      "difficulty": 1,
+      "stats": {
+        "Mobility": 4,
+        "BasicAttack": 2,
+        "Durability": 3,
+        "AbilityAttack": 8
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/F1DD8AFD14AB8AC293A59186E89CE83B610A6BE9.png"
+      }
+    },
+    {
+      "id": "82331aa4706a01589f9227e87ae43c25",
+      "name": "Revenant",
+      "attack": "Ranged",
+      "traits": [
+        "Marauder",
+        "Assassin",
+        "Burst",
+        "Attacker",
+        "Ganker"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2017-04-25T00:00:00.000Z",
+      "affinities": [
+        "Fury",
+        "Corruption"
+      ],
+      "difficulty": 1,
+      "stats": {
+        "Mobility": 1,
+        "BasicAttack": 9,
+        "Durability": 3,
+        "AbilityAttack": 7
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/6EEAF60A390FA19B7C93D05A77DD7083A1B46F19.png"
+      }
+    },
+    {
+      "id": "966e34d87f81ec512e0bb5be93b87bbf",
+      "name": "TwinBlast",
+      "attack": "Ranged",
+      "traits": [
+        "Marauder",
+        "Attacker",
+        "Elusive",
+        "Burst"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2016-03-22T00:00:00.000Z",
+      "affinities": [
+        "Growth",
+        "Fury"
+      ],
+      "difficulty": 1,
+      "stats": {
+        "Mobility": 4,
+        "BasicAttack": 9,
+        "Durability": 2,
+        "AbilityAttack": 4
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/683AA161D22070CAAA9637346F967EF31326330D.png"
+      }
+    },
+    {
+      "id": "a9c3c59927ff7313d52751a54b331ad2",
+      "name": "GRIM.exe",
+      "attack": "Ranged",
+      "traits": [
+        "Marauder",
+        "Attacker",
+        "Burst"
+      ],
+      "scale": "EnergyDamage",
+      "releaseDate": "2016-05-10T00:00:00.000Z",
+      "affinities": [
+        "Intellect",
+        "Corruption"
+      ],
+      "difficulty": 2,
+      "stats": {
+        "Mobility": 1,
+        "BasicAttack": 8,
+        "Durability": 3,
+        "AbilityAttack": 5
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/BAA4665246ADA0A48EFC69CCE40D9DDC754CA631.png"
+      }
+    },
+    {
+      "id": "ce9955a7ce823ffc0ecc71902f039201",
+      "name": "Dekker",
+      "attack": "Ranged",
+      "traits": [
+        "Guardian",
+        "Controller",
+        "Zoner",
+        "Elusive"
+      ],
+      "scale": "EnergyDamage",
+      "releaseDate": "2016-03-22T00:00:00.000Z",
+      "affinities": [
+        "Growth",
+        "Order"
+      ],
+      "difficulty": 0,
+      "stats": {
+        "Mobility": 6,
+        "BasicAttack": 1,
+        "Durability": 4,
+        "AbilityAttack": 6
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/10D449C6151274A33C10F84131ABCB35375EC688.png"
+      }
+    },
+    {
+      "id": "cf19dc5ac814474f6d317b2c28dff999",
+      "name": "Kallari",
+      "attack": "Melee",
+      "traits": [
+        "Assassin",
+        "Elusive",
+        "Ganker",
+        "Attacker",
+        "Initiator"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2016-03-22T00:00:00.000Z",
+      "affinities": [
+        "Intellect",
+        "Corruption"
+      ],
+      "difficulty": 3,
+      "stats": {
+        "Mobility": 9,
+        "BasicAttack": 8,
+        "Durability": 1,
+        "AbilityAttack": 4
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/A6EFF1072293E7EBB4170A96479535B0C9120562.png"
+      }
+    },
+    {
+      "id": "d1bc0d62ee2c08a7a493f666bd514932",
+      "name": "The Fey",
+      "attack": "Ranged",
+      "traits": [
+        "Controller",
+        "Guardian",
+        "Sieger",
+        "Burst"
+      ],
+      "scale": "EnergyDamage",
+      "releaseDate": "2016-08-02T00:00:00.000Z",
+      "affinities": [
+        "Growth",
+        "Intellect"
+      ],
+      "difficulty": 1,
+      "stats": {
+        "Mobility": 1,
+        "BasicAttack": 3,
+        "Durability": 3,
+        "AbilityAttack": 8
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/3D0545F0B7C38FCD84A88DD5D1019F5504E786C3.png"
+      }
+    },
+    {
+      "id": "d62ed5512ced144d4c5fe8bf3505c6a6",
+      "name": "Greystone",
+      "attack": "Melee",
+      "traits": [
+        "Durable",
+        "Initiator",
+        "Attacker",
+        "Elusive",
+        "Wild"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2016-07-12T00:00:00.000Z",
+      "affinities": [
+        "Fury",
+        "Order"
+      ],
+      "difficulty": 0,
+      "stats": {
+        "Mobility": 6,
+        "BasicAttack": 7,
+        "Durability": 9,
+        "AbilityAttack": 3
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/19297EEBEF91B4CA9E7916CB451B98ECEF7FD345.png"
+      }
+    },
+    {
+      "id": "dc8dd4e2ff11d6706866be8fb18e9208",
+      "name": "Feng Mao",
+      "attack": "Melee",
+      "traits": [
+        "Attacker",
+        "Durable",
+        "Assassin",
+        "Elusive",
+        "Wild",
+        "Ganker"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2016-03-22T00:00:00.000Z",
+      "affinities": [
+        "Fury",
+        "Order"
+      ],
+      "difficulty": 2,
+      "stats": {
+        "Mobility": 7,
+        "BasicAttack": 7,
+        "Durability": 5,
+        "AbilityAttack": 2
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/0D7BD1411A3D2FF507473EC046DFE35918DBC768.png"
+      }
+    },
+    {
+      "id": "f8fc4d76627c1121251760c28729bbff",
+      "name": "Muriel",
+      "attack": "Ranged",
+      "traits": [
+        "Guardian",
+        "Durable",
+        "Zoner"
+      ],
+      "scale": "EnergyDamage",
+      "releaseDate": "2016-03-22T00:00:00.000Z",
+      "affinities": [
+        "Growth",
+        "Order"
+      ],
+      "difficulty": 1,
+      "stats": {
+        "Mobility": 6,
+        "BasicAttack": 1,
+        "Durability": 3,
+        "AbilityAttack": 5
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/70E5F71AB7480EEA2E0892B919A62AB3F815D3BF.png"
+      }
+    },
+    {
+      "id": "fb582fe82f0956269d7d656189d8b845",
+      "name": "Sparrow",
+      "attack": "Ranged",
+      "traits": [
+        "Marauder",
+        "Attacker",
+        "Sieger"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2016-03-22T00:00:00.000Z",
+      "affinities": [
+        "Growth",
+        "Order"
+      ],
+      "difficulty": 0,
+      "stats": {
+        "Mobility": 1,
+        "BasicAttack": 10,
+        "Durability": 2,
+        "AbilityAttack": 3
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/03C3D93CF514314D610316AB4C0D641B6760AE51.png"
+      }
+    },
+    {
+      "id": "fc010be1a0bf295a347944e1e97ba583",
+      "name": "Grux",
+      "attack": "Melee",
+      "traits": [
+        "Attacker",
+        "Ganker",
+        "Initiator",
+        "Wild",
+        "Sieger",
+        "Controller"
+      ],
+      "scale": "PhysicalDamage",
+      "releaseDate": "2016-03-22T00:00:00.000Z",
+      "affinities": [
+        "Fury",
+        "Corruption"
+      ],
+      "difficulty": 2,
+      "stats": {
+        "Mobility": 5,
+        "BasicAttack": 7,
+        "Durability": 5,
+        "AbilityAttack": 5
+      },
+      "images": {
+        "icon": "//developer-paragon-cdn.epicgames.com/Images/F44D97C712AAD40E513C3BD7B009EDE9EFFA31F4.png"
+      }
+    }
+  ]
+}
