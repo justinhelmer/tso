@@ -1,5 +1,5 @@
 @value gray from '../../css/colors.css';
-@value xs, small as p-xs, small as p-small from '../../css/layout.css';
+@value xs, small as p-xs, small as p-small, normal as p-normal from '../../css/layout.css';
 
 ul.heroes {
   display: flex;
@@ -19,16 +19,23 @@ ul.heroes {
         max-width: 200px;
       }
 
+      & .name,
       & .overlay {
         background: rgba(0, 0, 0, 0.6);
         bottom: 0;
-        padding: p-xs;
+        position: absolute;
         width: 100%;
+      }
+
+      & .name {
+        padding: p-xs;
+      }
+
+      & .overlay {
+        padding: p-normal;
+        text-align: center;
+        top: 0;
       }
     }
   }
-}
-
-.overlay {
-  position: absolute;
 }
