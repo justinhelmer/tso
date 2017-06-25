@@ -1,0 +1,35 @@
+@value gray from '../../css/colors.css';
+@value xs, small as p-xs, small as p-small, normal as p-normal from '../../css/layout.css';
+
+li.hero-grid-item {
+  border: 1px solid gray;
+  position: relative;
+  margin: p-small;
+
+  & a {
+    display: block;
+
+    & img {
+      display: block;
+      max-width: 200px;
+    }
+
+    & .name,
+    & .overlay {
+      background: rgba(0, 0, 0, 0.6);
+      bottom: 0;
+      position: absolute;
+      width: 100%;
+    }
+
+    & .name {
+      padding: p-xs;
+    }
+
+    & .overlay {
+      padding: p-normal;
+      text-align: center;
+      top: 0;
+    }
+  }
+}
