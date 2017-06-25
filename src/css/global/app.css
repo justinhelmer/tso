@@ -14,8 +14,9 @@
 }
 
 :root {
-  @mixin font t-normal;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: t-normal;
+  line-height: 1.5;
   color: white;
 }
 
@@ -31,14 +32,14 @@ header {  @apply --centered;  flex-direction: column;  }
 :--heading {  font-weight: normal;  margin: m-normal 0;  }
 
 h1 {
-  @mixin font t-xxl;
+  font-size: t-xxl;
   border-bottom: 2px solid #000;
   color: neon;
   text-transform: uppercase;
   text-align: center;
 }
 
-h2 {  @mixin font t-large; }
+h2 { font-size: t-large; }
 
 ul {
     list-style-type: none;

@@ -1,16 +1,6 @@
 // global mixins - https://github.com/postcss/postcss-mixins
 
 module.exports = {
-  font: function (mixin, fontSize) {
-    const lineHeightMultiplier = 1.5;
-
-    return {
-      '&': {
-        'font-size': fontSize,
-        'line-height': fontSize * lineHeightMultiplier
-      }
-    };
-  },
   inline: function (mixin) {
     // const tXXL =
 
